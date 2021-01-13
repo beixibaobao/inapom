@@ -1,0 +1,36 @@
+body {background-attachment:fixed;background-image: url(1.png); background-repeat: no-repeat; background-position: center 50px; background-color: #fff; background-size: 100% 60%; }
+body:before{content: ""; width: 200px; height: 135px; position: fixed; left: 280px; right: 0; top: 40px; margin: 0 auto; background-image: url(2.png); background-size: 100% 100%;}
+body:after{z-index: -1;content: ""; width: 200px; height: 135px; position: fixed; left: -100px; right: 0; top: 40px; margin: 0 auto; background-image: url(3.png); background-size: 100% 100%;}
+.jinsom-menu-fixed { padding-top: 150px!important; }
+.jinsom-header {z-index: 999; background: none; background-position: center top; background-size: cover; }
+.jinsom-header:after { content: ""; width: 100%; height: 34px; position: absolute; bottom: -33px; z-index: 10; background: url(4.png) no-repeat top center; }
+.jinsom-header:before {background-size: 100% 60%;content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(255,255,255,0.8); z-index: -1; }
+.jinsom-header::before {background-image: url(1.png); background-position: center top; background-attachment: fixed; -webkit-filter: blur(20px); -moz-filter: blur(20px); -ms-filter: blur(20px); -o-filter: blur(20px); filter: blur(20px); }
+.jinsom-header-right>li>i, .jinsom-header-right>li>p { color: #fff!important; }
+.jinsom-footer{background: #fff url(5.png); background-repeat: no-repeat; background-position: center bottom; background-size: cover;}
+.jinsom-footer-top>li>.title { color: #ff5722; }
+.jinsom-right-bar li{opacity: .8;color: #fff; background: url(6.png); background-position: center top; background-size: cover; line-height: 53px; padding: 10px; margin: 0; box-shadow: unset;}
+.jinsom-footer-top .logo img {background: #f8cdc3; }
+.jinsom-right-bar:before{background-image: url(7.png); width: 52px; height: 100px; bottom: -95px; left: 2px; position: absolute; content: ""; background-size: cover; border-radius: 50% 50%; animation: yxyh2021b 4s infinite ease-in-out; transform-origin: 30% 0; -webkit-transform-origin:30% 0; -webkit-animation: yxyh2021b 4s infinite ease-in-out;}
+.jinsom-menu ul li a { color: #fff!important; }
+.jinsom-right-bar { top: 27%; }
+.jinsom-more-posts { width: fit-content; }
+.jinsom-show-bbs-box, .jinsom-sidebar-box,.jinsom-posts-list,.jinsom-topic-list li,.jinsom-case-content li,.jinsom-bbs-box,.jinsom-single-special-box { box-shadow: 2px 3px 10px rgba(255, 87, 34, 0.2); }
+.jinsom-show-bbs-box-content li:hover { border: 1px #efabac solid; }
+.jinsom-show-bbs-box-content li:hover .bottom a { background-color: #de948a; }
+.jinsom-show-bbs-box-content li:hover>i { color: #ff5722; }
+.jinsom-menu ul li ul li a { color: #000!important; }
+.jinsom-show-bbs-box { padding:0 0 20px 0; }
+.jinsom-show-bbs-box-content { padding: 0 20px; }
+.jinsom-show-bbs-box-header {position: relative;line-height: 35px; color: #fff; background-image: url(8.png); background-position: center top; }
+.jinsom-show-bbs-box-header .name{border: unset; background: #ff000047; padding: 0 15px; border-radius: 0 20px 20px 0;}
+.jinsom-show-bbs-box-header.user .number { line-height: 35px; margin-right: 100px; color: #fff; }
+.jinsom-show-bbs-box-header.user .number span i { color: #fff; padding-left: 5px; }
+.jinsom-black-house-content,.jinsom-luck-gift { background-color: rgba(255, 255, 255, 0)!important; }
+.jinsom-menu ul li.current-menu-item a:after {margin: 0 auto;z-index: 9999;content: ""; width: 30px; height: 80px; position: absolute; bottom: -80px; left: 0; right: 0; background-image: url(11.png); }
+.jinsom-right-bar>li>i{font-size: 18px;}
+.jinsom-right-bar>li>.title{line-height: 15px; top: 22px; right: 60px; background-color: #f33c2a;}
+.jinsom-right-bar>li:hover{color: #CDDC39;}
+.jinsom-right-bar:after{background-image: url(9.png); width: 90px; height: 100px; top: -76px; left: -13.5px; position: absolute; content: ""; background-size: 100% 100%; opacity: 0.8;}
+.jinsom-show-bbs-box-header .more a{color: #fff;}
+.jinsom-index-menu li.on, .jinsom-index-menu li:hover, .jinsom-sidebar-follow-btn.no{color: #fff; background-image: url(10.png); background-position: center top;}
