@@ -1,0 +1,17 @@
+*{margin:0;padding:0}
+li,ul{list-style:none}
+html{background:linear-gradient(to top left,#1af5d0,#405e6e)}
+body,html{height:100%}
+body{transition:1s;background:url(https://app.inapom.com/yayou.png)}
+.main{width:1000px;margin:0 auto;display:flex}
+.left{width:300px;transition:.5s}
+.right{width:620px;background:url() no-repeat 0;height:100vh;background-size:100%}
+.logo{height:100px;width:100px;border-radius:20px;background:url(https://app.inapom.com/daoheshequ.png);
+    background-size:cover;
+    margin:80px auto 30px;
+    /* box-shadow:10px 10px 10px #0a5658 */}
+    h1{color:#fff;text-align:center;font-size:16px;letter-spacing:4px}
+    .link,h1{margin-top:50px}.link a{display:block}
+    .link a,
+    .link li{text-align:center}.link li{color:#fff;width:150px;padding:6px 0;border:1px solid hsla(0,0%,100%,.8);display:inline-block;margin:10px auto;border-radius:4px;transition:.5s}.link li:hover{background:rgba(26,245,245,.4)}.qcode,.qcode img{text-align:center}.qcode img{widows:150px;height:150px;margin:50px auto}@media screen and (max-width:500px){.left,.main{width:100%}.right{display:none}}
+/*# sourceMappingURL=/dev.8f41e40b.css.map */
