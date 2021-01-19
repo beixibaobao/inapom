@@ -1,7 +1,8 @@
 *{margin:0;padding:0}
 li,ul{list-style:none}
-/* html{background:linear-gradient(to top left,#1af5d0,#405e6e)} */
-html{background:linear-gradient(to top left,#fdd9de,#fdaebb)}
+html{background:linear-gradient(to top left,#1af5d0,#405e6e)}
+/* html{background:linear-gradient(to top left,#fdd9de,#fdaebb)} */
+/* html{background:linear-gradient(to top left,#B8860B,#DAA520)}  */
 body,html{height:100%}
 body{transition:1s;background:url(https://cdn.jsdelivr.net/gh/beixibaobao/inapom/dxcc/app/img/haizakura_3.png)}
 .main{width:1000px;margin:0 auto;display:flex}
