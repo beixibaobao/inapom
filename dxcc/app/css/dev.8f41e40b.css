@@ -2,7 +2,7 @@
 li,ul{list-style:none}
 html{background:linear-gradient(to top left,#1af5d0,#405e6e)}
 body,html{height:100%}
-body{transition:1s;background:url(https://cdn.jsdelivr.net/gh/beixibaobao/inapom/dxcc/app/img/yayou.png)}
+body{transition:1s;background:url(https://cdn.jsdelivr.net/gh/beixibaobao/inapom/dxcc/app/img/haizakura_2.png)}
 .main{width:1000px;margin:0 auto;display:flex}
 .left{width:300px;transition:.5s}
 .right{width:620px;background:url() no-repeat 0;height:100vh;background-size:100%}
